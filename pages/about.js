@@ -14,7 +14,7 @@ export default function about(){
             <div class="container px-5 py-24 mx-auto flex flex-col">
                 <div class="lg:w-4/6 mx-auto">
                     <div class="rounded-lg h-64 overflow-hidden">
-                        <Image alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500" width="1200" height="500"/>
+                        <Image alt="content" class="object-cover object-center h-full w-full" src="https://www.visitsingapore.com/id_id/dining-drinks-singapore/_jcr_content/par-carousel/carousel_with_video/carousel/item1.thumbnail.carousel-img.1400.500.jpg" width="1200" height="500"/>
                     </div>
                     <div class="flex flex-col sm:flex-row mt-10">
                         <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
