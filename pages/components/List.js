@@ -25,8 +25,8 @@ export default function List() {
                 <div class="flex flex-wrap -m-4">
                     {   
                         data.results.length === 0 ? (<p class="mx-auto text-center font-bold">Loading...</p>) :
-                        data.results.map((item) => (
-                            <ItemCard data={item} />
+                        data.results.map((item, index) => (
+                            <ItemCard key={index} data={item} />
                         ))
                     }
                 </div>
