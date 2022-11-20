@@ -18,7 +18,7 @@ export default function Meta(props) {
             <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png" />
             <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
             <link rel="icon" href="/favicon.ico" />
-            <link rel="manifest" href="/assets/manifest.json" />
+            <link rel="manifest" href="/manifest.json" />
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png" />
             <meta name="theme-color" content="#ffffff" />
