@@ -10,9 +10,9 @@ export default function References() {
       <Header />
 
       <section class="text-gray-600 body-font">
-            <div class="container px-5 py-36 mx-auto">
+            <div class="container px-5 py-52 mx-auto">
                 <div class="text-center mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Data References</h1>
+                    <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Food  References</h1>
                     <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Here are some data references that we use to serve you our delicious menus!</p>
                 </div>
                 <div class="flex flex-wrap -m-4">
@@ -186,3 +186,4 @@ export default function References() {
     </div>
   )
 }
+
