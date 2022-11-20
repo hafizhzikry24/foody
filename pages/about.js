@@ -2,11 +2,13 @@ import Image from "next/image";
 import Meta from "./components/Meta";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import profile from "../public/assets/profile.webp";
+import banner from "../public/assets/banner.webp";
 
 export default function about() {
   return (
     <div>
-      <Meta title="Foody: about" />
+      <Meta title="Foody: About" />
 
       <Header />
 
@@ -17,7 +19,7 @@ export default function about() {
               <Image
                 alt="banner"
                 className="object-cover object-center h-full w-full"
-                src="https://www.visitsingapore.com/id_id/dining-drinks-singapore/_jcr_content/par-carousel/carousel_with_video/carousel/item1.thumbnail.carousel-img.1400.500.jpg"
+                src={banner}
                 width="1200"
                 height="500"
               />
@@ -25,12 +27,7 @@ export default function about() {
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                  <Image
-                    alt="profile"
-                    src="/assets/pasfoto.png"
-                    width="80"
-                    height="80"
-                  />
+                  <Image alt="profile" src={profile} width="80" height="80" />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">

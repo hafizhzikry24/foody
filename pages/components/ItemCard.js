@@ -10,8 +10,6 @@ export default function ItemCard(props) {
             className="object-cover object-center w-full h-full block"
             layout="fill"
             objectFit="cover"
-            width="421"
-            height="261"
             src={props.data.thumbnail_url}
           />
         </a>

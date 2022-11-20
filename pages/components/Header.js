@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import icon from "../../public/assets/icon.webp";
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
           href="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <Image alt="icon" src="/assets/icon.png" width="40" height="40" />
+          <Image alt="icon" src={icon} width="40" height="40" />
           <span className="ml-3 text-xl">Foody</span>
         </Link>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
