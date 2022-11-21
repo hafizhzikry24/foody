@@ -57,6 +57,12 @@ export default function Detail() {
               >
                 Watch Videos
               </Link>
+              <Link
+                href="/"
+                class=" ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+              >
+                Back
+              </Link>
             </div>
           </div>
         </div>

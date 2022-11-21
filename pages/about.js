@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import profile from "../public/assets/profile.webp";
 import banner from "../public/assets/banner.webp";
 
+
 export default function about() {
   return (
     <div>
@@ -48,6 +49,7 @@ export default function about() {
                  and this application deploying with vercel that have a complex fiture ti deploy so make it easy
                  i hope i can developing this app
                 </p>
+                
               </div>
             </div>
           </div>
