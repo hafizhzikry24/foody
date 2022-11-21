@@ -53,7 +53,7 @@ export default function Detail() {
             <div class="flex justify-center">
               <Link
                 href={data.original_video_url ?? ''}
-                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
               >
                 Watch Videos
               </Link>

@@ -24,7 +24,7 @@ export default function Header() {
             FAQ
           </Link>
           <Link className="mr-5 hover:text-gray-900" href="/about">
-            About Us
+            About 
           </Link>
         </nav>
       </div>
