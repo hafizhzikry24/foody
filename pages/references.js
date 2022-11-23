@@ -10,7 +10,7 @@ export default function References() {
 
       <Header />
 
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font bg-blue-200 py-20">
         <div className="container px-5 py-52 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
@@ -29,7 +29,7 @@ export default function References() {
               </h2>
               <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                 <Link href ="https://id.wikipedia.org/wiki/Hidangan_pembuka">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -47,7 +47,7 @@ export default function References() {
                 
                
                 <Link href ="https://id.wikipedia.org/wiki/Hidangan_pembuka">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -63,7 +63,7 @@ export default function References() {
                   Dictionary
                 </Link>
                 <Link href ="https://www.delightedcooking.com/what-are-appetizers.htm">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -86,7 +86,7 @@ export default function References() {
               </h2>
               <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <Link href ="https://en.wikipedia.org/wiki/Main_course#:~:text=A%20main%20course%20is%20the%20featured%20or%20primary,courses.%20It%20usually%20follows%20the%20entr%C3%A9e%20%28%22entry%22%29%20course.">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -102,7 +102,7 @@ export default function References() {
                   Wikipedia
                 </Link>
                 <Link href ="https://dictionary.cambridge.org/dictionary/english/entree?q=entree_1">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -118,7 +118,7 @@ export default function References() {
                   Dictionary
                 </Link>
                 <Link href ="https://theworld.org/stories/2014-09-22/sure-you-are-what-you-eatbut-youre-also-how-you-translate-menu">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -141,7 +141,7 @@ export default function References() {
               </h2>
               <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
               <Link href ="https://en.wikipedia.org/wiki/Dessert">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -157,7 +157,7 @@ export default function References() {
                   Wikipedia
                 </Link>
                 <Link href ="https://www.merriam-webster.com/dictionary/dessert">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -173,7 +173,7 @@ export default function References() {
                   Dictionary
                 </Link>
                 <Link href ="https://ghostarchive.org/archive/xjJWi">
-                  <span className="bg-red-100 text-red-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"

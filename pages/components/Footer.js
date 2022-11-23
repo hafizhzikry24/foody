@@ -28,11 +28,11 @@ export default function Footer() {
     //         </span>
     //     </div>
     // </footer>
-    <footer class="sticky bottom-0 text-gray-600 body-font z-50 bg-white">
+    <footer class="sticky bottom-0 text-gray-600 body-font z-50 bg-indigo-300">
       <div class="container px-3 py-6 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         
-        <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <Link href="/" className="flex title-font font-sm items-center text-gray-500  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+        <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
+          <Link href="/" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
           <Image alt="icon" src={list} width="20" height="20" />
            
            
@@ -40,19 +40,19 @@ export default function Footer() {
             
          
           </Link>
-          <Link href="/references" className="flex title-font font-sm items-center text-gray-500  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+          <Link href="/references" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
           <Image alt="icon" src={link} width="20" height="20 "  />
               <h1 className="ml-2">References </h1>
             
          
           </Link>
-          <Link href="/faq" className="flex title-font font-sm items-center text-gray-500  hover:text-gray-900 mb-4 mr-3 md:mb-0 " >
+          <Link href="/faq" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0 " >
           <Image alt="icon" src={faq} width="20" height="20" />
               <h1 className="ml-2">FAQ  </h1>
             
          
           </Link>
-          <Link href="/about" className="flex title-font font-sm items-center text-gray-500  hover:text-gray-900 mb-4 mr-3 md:mb-0">
+          <Link href="/about" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
           <Image alt="icon" src={info} width="20" height="20" />
                <h1 className="ml-2">About </h1>
             

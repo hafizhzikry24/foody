@@ -4,7 +4,7 @@ import icon from "../../public/assets/icon.webp";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 text-gray-600 body-font z-50 bg-white">
+    <header className="sticky top-0 text-gray-900 body-font z-50 bg-indigo-300">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
           href="/"
@@ -34,7 +34,7 @@ export default function Header() {
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start ">
             <a
               href="https://www.instagram.com/hafizh.zikry/"
-              className="ml-3 text-gray-500  hover:text-gray-900"
+              className="ml-3 text-gray-700  hover:text-gray-900"
             >
               <svg
                 fill="none"
@@ -51,7 +51,7 @@ export default function Header() {
             </a>
             <a
               href="https://www.linkedin.com/in/muhammad-hafizh-zikry-784b37249/"
-              className="ml-8 text-gray-500 hover:text-gray-900"
+              className="ml-8 text-gray-700 hover:text-gray-900"
             >
               <svg
                 fill="currentColor"
