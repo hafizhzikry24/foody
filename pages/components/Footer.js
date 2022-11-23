@@ -42,13 +42,13 @@ export default function Footer() {
           </Link>
           <Link href="/references" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
           <Image alt="icon" src={link} width="20" height="20 "  />
-              <h1 className="ml-2">References </h1>
+              <h1 className="ml-2">Dish </h1>
             
          
           </Link>
           <Link href="/faq" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0 " >
           <Image alt="icon" src={faq} width="20" height="20" />
-              <h1 className="ml-2">FAQ  </h1>
+              <h1 className="ml-2">Review  </h1>
             
          
           </Link>
