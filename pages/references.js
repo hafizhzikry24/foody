@@ -10,7 +10,7 @@ export default function References() {
 
       <Header />
 
-      <section className="text-gray-600 body-font bg-blue-200 py-20">
+      <section className="text-gray-600 body-font bg-amber-50 py-20">
         <div className="container px-5 py-52 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">

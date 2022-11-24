@@ -28,7 +28,7 @@ export default function Footer() {
     //         </span>
     //     </div>
     // </footer>
-    <footer class="sticky bottom-0 text-gray-600 body-font z-50 bg-indigo-300">
+    <footer class="sticky bottom-0 text-gray-600 body-font z-50 bg-amber-100">
       <div class="container px-3 py-6 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         
         <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">

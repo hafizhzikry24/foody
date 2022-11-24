@@ -35,7 +35,7 @@ export default function Detail() {
 
       <Header />
 
-      <section class="text-gray-600 body-font bg-blue-200 py-10">
+      <section class="text-gray-600 body-font bg-amber-50 py-10">
         <div class="container mx-auto flex px-5 py-8 items-center justify-center flex-col">
           <Image
             class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 rounded"

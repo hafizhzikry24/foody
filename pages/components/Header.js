@@ -4,7 +4,7 @@ import icon from "../../public/assets/icon.webp";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 text-gray-900 body-font z-50 bg-indigo-300">
+    <header className="sticky top-0 text-gray-900 body-font z-50 bg-amber-100">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
           href="/"

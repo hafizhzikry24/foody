@@ -20,7 +20,7 @@ export default function List() {
     }, []);
 
     return (
-        <section className="text-gray-600 body-font bg-blue-200">
+        <section className="text-gray-600 body-font bg-yellow-50">
             <div className="container px-5 py-8 mx-auto">
                 <div className="flex flex-wrap -m-4">
                     {   
