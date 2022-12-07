@@ -1,9 +1,6 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import list from "../../public/assets/list.webp";
-import link from "../../public/assets/link.webp";
-import info from "../../public/assets/info.webp";
-import faq from "../../public/assets/faq.webp";
+
 
 export default function Footer() {
   return (
@@ -33,7 +30,7 @@ export default function Footer() {
         
         <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center ">
           <Link href="/" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
-          <Image alt="icon" src={list} width="20" height="20" />
+          
            
            
             <h1 className="ml-2">List </h1>
@@ -41,19 +38,19 @@ export default function Footer() {
          
           </Link>
           <Link href="/references" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
-          <Image alt="icon" src={link} width="20" height="20 "  />
+          
               <h1 className="ml-2">Dish </h1>
             
          
           </Link>
           <Link href="/faq" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0 " >
-          <Image alt="icon" src={faq} width="20" height="20" />
+          
               <h1 className="ml-2">Review  </h1>
             
          
           </Link>
           <Link href="/about" className="flex title-font font-sm items-center text-gray-700  hover:text-gray-900 mb-4 mr-3 md:mb-0">
-          <Image alt="icon" src={info} width="20" height="20" />
+          
                <h1 className="ml-2">About </h1>
             
          
