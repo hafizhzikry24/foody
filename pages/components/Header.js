@@ -1,19 +1,20 @@
 
 import Image from "next/image";
+import Link from "next/link";
 import icon from "../../public/assets/icon.webp";
 
 export default function Header() {
   return (
     <header className="sticky top-0 text-gray-900 body-font z-50 bg-amber-100">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <div
-          
+        <Link
+          href="/"
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <Image alt="icon" src={icon} width="40" height="40" />
           <span className="ml-3 text-xl">
             Foody</span>
-        </div>
+        </Link>
         {/* <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <Link className="mr-5 hover:text-gray-900" href="/">
             List
@@ -34,7 +35,7 @@ export default function Header() {
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start ">
             <a
               href="https://www.instagram.com/hafizh.zikry/"
-              className="ml-3 text-gray-700  hover:text-gray-900"
+              className="ml-3 text-gray-400  hover:text-gray-900"
             >
               <svg
                 fill="none"
@@ -51,7 +52,7 @@ export default function Header() {
             </a>
             <a
               href="https://www.linkedin.com/in/muhammad-hafizh-zikry-784b37249/"
-              className="ml-8 text-gray-700 hover:text-gray-900"
+              className="ml-8 text-gray-400  hover:text-gray-900 "
             >
               <svg
                 fill="currentColor"
